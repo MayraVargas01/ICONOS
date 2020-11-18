@@ -1,0 +1,37 @@
+.container-ul li{
+    margin-left: 25px;
+    font-family: 'goldman' cursive;
+    font-size: 2em;
+    padding-left: 25px;
+}
+.container-ul li::marker{
+    font-family: 'font awesome 5 free';
+    content: "\f182";
+    font-weight: 900;
+    color: crimson;
+    font-size: 2em;
+}
+.container-ul li:nth-child(2)::marker{
+    content: '\f583';
+    font-weight: 900;
+    color: cyan;
+    font-size: 2em;
+}
+.container-ul li:nth-child(3)::marker{
+    content: '\f51c';
+    font-weight: 900;
+    color: crimson;
+    font-size: 2em;
+}
+.container-ul li:nth-child(4)::marker{
+    content: '\f70c';
+    font-weight: 900;
+    color: cyan;
+    font-size: 2em;
+}
+.container-ul li:nth-child(5)::marker{
+    content: '\f1b0';
+    font-weight: 900;
+    color: crimson;
+    font-size: 2em;
+}
